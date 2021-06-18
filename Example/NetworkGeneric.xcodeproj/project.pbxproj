@@ -14,6 +14,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B96ACA44267C300D0029AD65 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96ACA43267C300D0029AD65 /* Post.swift */; };
+		B96ACA46267C526D0029AD65 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96ACA45267C526D0029AD65 /* Comment.swift */; };
+		B96ACA48267CF4CF0029AD65 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96ACA47267CF4CF0029AD65 /* Pokemon.swift */; };
+		B96ACA4A267CF5240029AD65 /* PokemonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96ACA49267CF5240029AD65 /* PokemonResponse.swift */; };
 		E554F9105CEA6843386A2A28 /* Pods_NetworkGeneric_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E91371754E6E1BABC79863 /* Pods_NetworkGeneric_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0796146EBEC615195A019EB0 /* NetworkGeneric.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NetworkGeneric.podspec; path = ../NetworkGeneric.podspec; sourceTree = "<group>"; };
-		262EC86511F5FFB6D75F5458 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0796146EBEC615195A019EB0 /* NetworkGeneric.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NetworkGeneric.podspec; path = ../NetworkGeneric.podspec; sourceTree = "<group>"; };
+		262EC86511F5FFB6D75F5458 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		57662CCB7417CF816BB649AE /* Pods_NetworkGeneric_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkGeneric_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* NetworkGeneric_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkGeneric_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +48,13 @@
 		8FA14B9EADE0D2C2714864A9 /* Pods-NetworkGeneric_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkGeneric_Example.release.xcconfig"; path = "Target Support Files/Pods-NetworkGeneric_Example/Pods-NetworkGeneric_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B09804080E46A586F5F3D5D0 /* Pods-NetworkGeneric_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkGeneric_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NetworkGeneric_Tests/Pods-NetworkGeneric_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1E91371754E6E1BABC79863 /* Pods_NetworkGeneric_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkGeneric_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96ACA43267C300D0029AD65 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B96ACA45267C526D0029AD65 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		B96ACA47267CF4CF0029AD65 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		B96ACA49267CF5240029AD65 /* PokemonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonResponse.swift; sourceTree = "<group>"; };
 		CD2F2EA8B9A5BFABDE8F338A /* Pods-NetworkGeneric_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkGeneric_Tests.release.xcconfig"; path = "Target Support Files/Pods-NetworkGeneric_Tests/Pods-NetworkGeneric_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF112B48338448D7D26B6936 /* Pods-NetworkGeneric_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkGeneric_Example.debug.xcconfig"; path = "Target Support Files/Pods-NetworkGeneric_Example/Pods-NetworkGeneric_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E55CA743D48E71C01133B8CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E55CA743D48E71C01133B8CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +94,6 @@
 				B09804080E46A586F5F3D5D0 /* Pods-NetworkGeneric_Tests.debug.xcconfig */,
 				CD2F2EA8B9A5BFABDE8F338A /* Pods-NetworkGeneric_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,6 +121,7 @@
 		607FACD21AFB9204008FA782 /* Example for NetworkGeneric */ = {
 			isa = PBXGroup;
 			children = (
+				B96ACA42267C2FFE0029AD65 /* Model */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -158,6 +166,17 @@
 				E55CA743D48E71C01133B8CB /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B96ACA42267C2FFE0029AD65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B96ACA43267C300D0029AD65 /* Post.swift */,
+				B96ACA45267C526D0029AD65 /* Comment.swift */,
+				B96ACA47267CF4CF0029AD65 /* Pokemon.swift */,
+				B96ACA49267CF5240029AD65 /* PokemonResponse.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +246,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,8 +351,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96ACA48267CF4CF0029AD65 /* Pokemon.swift in Sources */,
+				B96ACA44267C300D0029AD65 /* Post.swift in Sources */,
+				B96ACA4A267CF5240029AD65 /* PokemonResponse.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				B96ACA46267C526D0029AD65 /* Comment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

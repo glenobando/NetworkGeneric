@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct Pokemon : Codable {
+    var name: String
+    var url: String?
+    var base_experience: Int?
+    var height: Int?
+    var is_default: Bool?
+    var weight: Int?
+}

@@ -8,71 +8,83 @@
 
 /* Begin PBXBuildFile section */
 		1AB05259DCD86B1B5808094BEEB8D8E5 /* Pods-NetworkGeneric_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5EEA54B8F0B092356C343BB92E4DA4 /* Pods-NetworkGeneric_Example-dummy.m */; };
-		30609BFAEC2F03CE32B340E15D6C32FA /* NetworkGeneric-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEC8F7B9A0B937640BC77CC4B54FE18 /* NetworkGeneric-dummy.m */; };
+		2E8F73BC5153C6505D490A3FCB33F5C7 /* NetworkGeneric-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E63A83303AC40D9D702C493E0115DEB /* NetworkGeneric-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3268F4120A4C49A743AFF0B2015C5D4D /* Pods-NetworkGeneric_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 790C889D72E07A75C7ADDEE5ED832018 /* Pods-NetworkGeneric_Tests-dummy.m */; };
 		32D4068E671B3FD4C59AA25D10E40990 /* Pods-NetworkGeneric_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56BD4A691912CB2E9EAD6AAAA7E6B923 /* Pods-NetworkGeneric_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BDF654CFED4487591A1797E922E4E4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		464C94F205DEF868D97BBDABE48448C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		505BF3599B4B9E5FCA43ADF0B4A78F87 /* Pods-NetworkGeneric_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB299528D17817A7F5B479A9ACBA253E /* Pods-NetworkGeneric_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F02942EBCA19C73B2A558A9E964AE05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B2295747920D5CA9816840032720CD76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CC7FAAFD1D62D225BD1F246E1CD122E1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C2A9A650989305A6E3317691AFA01D /* ReplaceMe.swift */; };
-		FBD2756E59AA9333139E233922F1A238 /* NetworkGeneric-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8514F433A8B694970ACEF590B8936A7F /* NetworkGeneric-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F28B60E460C255039E54C1F4056400 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B95BB92F7C25E4D26E33707135EEE3 /* Network.swift */; };
+		B7DDBBBA3C1003CD4DA756187423E385 /* NetworkGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BE565307F14D368F832CF62CD2A2CE /* NetworkGeneric.swift */; };
+		BEADBFCF8DAD5D4E02E561DD1B5AB86B /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E627F94F87966CA3032FBD003CF80E0 /* ApiError.swift */; };
+		F689E648158870FB31DD6A638731B944 /* NetworkGeneric-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A45F7EA967066783A5EE6A6616510E /* NetworkGeneric-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3650205A4343C87922B0FBF1F7BD3A94 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BACDAAB70F9A9CAC53E8E447A361E41C;
-			remoteInfo = "Pods-NetworkGeneric_Example";
-		};
-		5904A821B2E3F94A4A59A8210E81DC87 /* PBXContainerItemProxy */ = {
+		631D63DB502BE4827BABA32E3BE0BDF4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CBF7FB27678775530648F3A2A9B2B1D3;
 			remoteInfo = NetworkGeneric;
 		};
+		679A875EE3D365CF3045A801E092A6B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BACDAAB70F9A9CAC53E8E447A361E41C;
+			remoteInfo = "Pods-NetworkGeneric_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08A0284C6B45BC3F0E9ED6A33AE274B5 /* NetworkGeneric.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NetworkGeneric.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		08F8B0DA26A6FB6E82DAC0CBCE84C5DA /* Pods-NetworkGeneric_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NetworkGeneric_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1776EA0B0CF02CF932E1873ACF76FFF1 /* NetworkGeneric-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NetworkGeneric-Info.plist"; sourceTree = "<group>"; };
-		23C2A9A650989305A6E3317691AFA01D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NetworkGeneric/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		247EB6F7920AAF201E9A55CFCD262951 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		266A6AA165B9DBF437325A145DA20F1F /* Pods-NetworkGeneric_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NetworkGeneric_Example.release.xcconfig"; sourceTree = "<group>"; };
+		27BE565307F14D368F832CF62CD2A2CE /* NetworkGeneric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkGeneric.swift; path = NetworkGeneric/Classes/NetworkGeneric.swift; sourceTree = "<group>"; };
+		2E627F94F87966CA3032FBD003CF80E0 /* ApiError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiError.swift; path = NetworkGeneric/Classes/ApiError.swift; sourceTree = "<group>"; };
+		333F81DBB5AAFD59878BF076D2AE50A2 /* NetworkGeneric.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NetworkGeneric.release.xcconfig; sourceTree = "<group>"; };
 		44CCE977766275F0472145B94EBDFB7E /* Pods-NetworkGeneric_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NetworkGeneric_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4A43B6DD630353226BB72C0CBB9FEEE4 /* Pods_NetworkGeneric_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NetworkGeneric_Tests.framework; path = "Pods-NetworkGeneric_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E185FBE105DB915D467FEE50894D730 /* Pods-NetworkGeneric_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NetworkGeneric_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		52CD625EEBFF102E4FD05C67858DC326 /* NetworkGeneric.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NetworkGeneric.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5408197EF8CF84E6FC447A4D792579CB /* Pods-NetworkGeneric_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NetworkGeneric_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		55D7A0AC090EF461A850FA8CDA698C93 /* NetworkGeneric.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NetworkGeneric.modulemap; sourceTree = "<group>"; };
 		56BD4A691912CB2E9EAD6AAAA7E6B923 /* Pods-NetworkGeneric_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NetworkGeneric_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5C069A1BB4251B2646587B96303DBAFA /* NetworkGeneric.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NetworkGeneric.release.xcconfig; sourceTree = "<group>"; };
+		65A45F7EA967066783A5EE6A6616510E /* NetworkGeneric-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NetworkGeneric-dummy.m"; sourceTree = "<group>"; };
 		6DB44805716217EF448747AFFBF7FBA2 /* Pods-NetworkGeneric_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NetworkGeneric_Tests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		790C889D72E07A75C7ADDEE5ED832018 /* Pods-NetworkGeneric_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NetworkGeneric_Tests-dummy.m"; sourceTree = "<group>"; };
 		7E55E10B738FDB4974C3A7855DC8B92B /* NetworkGeneric.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NetworkGeneric.framework; path = NetworkGeneric.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8514F433A8B694970ACEF590B8936A7F /* NetworkGeneric-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NetworkGeneric-umbrella.h"; sourceTree = "<group>"; };
-		871A5D7EAB25565C7832A02E64630292 /* NetworkGeneric-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NetworkGeneric-prefix.pch"; sourceTree = "<group>"; };
+		7E63A83303AC40D9D702C493E0115DEB /* NetworkGeneric-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NetworkGeneric-umbrella.h"; sourceTree = "<group>"; };
+		83B95BB92F7C25E4D26E33707135EEE3 /* Network.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Network.swift; path = NetworkGeneric/Classes/Network.swift; sourceTree = "<group>"; };
 		8A9AE653CB154A4038F00BD6BD36084A /* Pods_NetworkGeneric_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NetworkGeneric_Example.framework; path = "Pods-NetworkGeneric_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5F6D9C81F0564A10F33B1A758923206 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A82FE769450F4627D7141FC3E9D61251 /* Pods-NetworkGeneric_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NetworkGeneric_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A89AA410F9E2EC3B4FF54AE1D0B3AF39 /* Pods-NetworkGeneric_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NetworkGeneric_Example.modulemap"; sourceTree = "<group>"; };
 		B1ACDC1595165639E965005BBD47ADBC /* Pods-NetworkGeneric_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NetworkGeneric_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B1B43EF50A320565638E032A34E8F60F /* NetworkGeneric-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NetworkGeneric-Info.plist"; sourceTree = "<group>"; };
 		BA0BA0C7FFD5F118284BA26227A2B923 /* Pods-NetworkGeneric_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NetworkGeneric_Example-Info.plist"; sourceTree = "<group>"; };
+		C629112CD2CE9B5A1CDEEAFC8CE1A9C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CB46591A98FF0E1FBFB6416AE96A8B1E /* Pods-NetworkGeneric_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NetworkGeneric_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D8B9650E16E573CB8B696D25CD44CDC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DAEC8F7B9A0B937640BC77CC4B54FE18 /* NetworkGeneric-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NetworkGeneric-dummy.m"; sourceTree = "<group>"; };
 		DB299528D17817A7F5B479A9ACBA253E /* Pods-NetworkGeneric_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NetworkGeneric_Example-umbrella.h"; sourceTree = "<group>"; };
-		EBE62F05ECBF9487DB4B0D22034D589B /* NetworkGeneric.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NetworkGeneric.modulemap; sourceTree = "<group>"; };
 		EFA9250B7FA2D1401B52FD2D59645F8C /* Pods-NetworkGeneric_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NetworkGeneric_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F5112D2871A5FBFA185550332846C93C /* Pods-NetworkGeneric_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NetworkGeneric_Tests-Info.plist"; sourceTree = "<group>"; };
-		FC3C78547EB7AB283EEECFE7B4B78207 /* NetworkGeneric.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NetworkGeneric.debug.xcconfig; sourceTree = "<group>"; };
+		F97ADE9478BD1423364B28553130098A /* NetworkGeneric.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NetworkGeneric.debug.xcconfig; sourceTree = "<group>"; };
 		FE5EEA54B8F0B092356C343BB92E4DA4 /* Pods-NetworkGeneric_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NetworkGeneric_Example-dummy.m"; sourceTree = "<group>"; };
+		FF1C5DC5BD2BFC544BB221EFE009B847 /* NetworkGeneric-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NetworkGeneric-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		01AB5C93FF5E3E274AC8E03B614EC974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDF654CFED4487591A1797E922E4E4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F407A6122AF8515594FC6520927C67A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,14 +98,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F02942EBCA19C73B2A558A9E964AE05 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F69A95D27D9A0CAD3B38623EAE54A538 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2295747920D5CA9816840032720CD76 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,12 +147,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A784A6EEA16BD9CBB15D78E5CBB60BA7 /* Development Pods */ = {
+		7E7495A997837A7516BB8BFB65D50925 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				ED86B645D3CF19ACE0D5B7B6BE43F0B1 /* NetworkGeneric */,
+				247EB6F7920AAF201E9A55CFCD262951 /* LICENSE */,
+				52CD625EEBFF102E4FD05C67858DC326 /* NetworkGeneric.podspec */,
+				C629112CD2CE9B5A1CDEEAFC8CE1A9C4 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A5FE2A6BAE8C058BA7C79754CC17718D /* NetworkGeneric */ = {
+			isa = PBXGroup;
+			children = (
+				2E627F94F87966CA3032FBD003CF80E0 /* ApiError.swift */,
+				83B95BB92F7C25E4D26E33707135EEE3 /* Network.swift */,
+				27BE565307F14D368F832CF62CD2A2CE /* NetworkGeneric.swift */,
+				7E7495A997837A7516BB8BFB65D50925 /* Pod */,
+				FB91DB86240DB158F0E921B71F2F05A0 /* Support Files */,
+			);
+			name = NetworkGeneric;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C6DC68CB41F269B3F453D1E090272C4E /* Pods-NetworkGeneric_Example */ = {
@@ -168,26 +187,11 @@
 			path = "Target Support Files/Pods-NetworkGeneric_Example";
 			sourceTree = "<group>";
 		};
-		C85E1DA244D90B6BDE3026E60B08E6C8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EBE62F05ECBF9487DB4B0D22034D589B /* NetworkGeneric.modulemap */,
-				DAEC8F7B9A0B937640BC77CC4B54FE18 /* NetworkGeneric-dummy.m */,
-				1776EA0B0CF02CF932E1873ACF76FFF1 /* NetworkGeneric-Info.plist */,
-				871A5D7EAB25565C7832A02E64630292 /* NetworkGeneric-prefix.pch */,
-				8514F433A8B694970ACEF590B8936A7F /* NetworkGeneric-umbrella.h */,
-				FC3C78547EB7AB283EEECFE7B4B78207 /* NetworkGeneric.debug.xcconfig */,
-				5C069A1BB4251B2646587B96303DBAFA /* NetworkGeneric.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NetworkGeneric";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A784A6EEA16BD9CBB15D78E5CBB60BA7 /* Development Pods */,
+				E5075427C89442A8265B8DE20FC97043 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				14982FAC75B8F66B281009681228916C /* Products */,
 				3E8D44D22AC3DAD4F8B657159C227C8A /* Targets Support Files */,
@@ -202,25 +206,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ED86B645D3CF19ACE0D5B7B6BE43F0B1 /* NetworkGeneric */ = {
+		E5075427C89442A8265B8DE20FC97043 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				23C2A9A650989305A6E3317691AFA01D /* ReplaceMe.swift */,
-				F50B61C95493D918127C94DFA692841C /* Pod */,
-				C85E1DA244D90B6BDE3026E60B08E6C8 /* Support Files */,
+				A5FE2A6BAE8C058BA7C79754CC17718D /* NetworkGeneric */,
 			);
-			name = NetworkGeneric;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F50B61C95493D918127C94DFA692841C /* Pod */ = {
+		FB91DB86240DB158F0E921B71F2F05A0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D8B9650E16E573CB8B696D25CD44CDC9 /* LICENSE */,
-				08A0284C6B45BC3F0E9ED6A33AE274B5 /* NetworkGeneric.podspec */,
-				A5F6D9C81F0564A10F33B1A758923206 /* README.md */,
+				55D7A0AC090EF461A850FA8CDA698C93 /* NetworkGeneric.modulemap */,
+				65A45F7EA967066783A5EE6A6616510E /* NetworkGeneric-dummy.m */,
+				B1B43EF50A320565638E032A34E8F60F /* NetworkGeneric-Info.plist */,
+				FF1C5DC5BD2BFC544BB221EFE009B847 /* NetworkGeneric-prefix.pch */,
+				7E63A83303AC40D9D702C493E0115DEB /* NetworkGeneric-umbrella.h */,
+				F97ADE9478BD1423364B28553130098A /* NetworkGeneric.debug.xcconfig */,
+				333F81DBB5AAFD59878BF076D2AE50A2 /* NetworkGeneric.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NetworkGeneric";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,11 +240,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF5EE3ACFCF404600C6EA04B31E6621E /* Headers */ = {
+		8CC89BC596DA0ACED62FC7345C495CC9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD2756E59AA9333139E233922F1A238 /* NetworkGeneric-umbrella.h in Headers */,
+				2E8F73BC5153C6505D490A3FCB33F5C7 /* NetworkGeneric-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +271,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F648AA3D3EF945848EF05FF61F96DB98 /* PBXTargetDependency */,
+				E13F78D28DA58BC81A725BB392C021D8 /* PBXTargetDependency */,
 			);
 			name = "Pods-NetworkGeneric_Example";
 			productName = "Pods-NetworkGeneric_Example";
@@ -284,7 +290,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				87097025CA1D70BAA5FCE519D6036D44 /* PBXTargetDependency */,
+				501064E220597317D15ED4B81D89A730 /* PBXTargetDependency */,
 			);
 			name = "Pods-NetworkGeneric_Tests";
 			productName = "Pods-NetworkGeneric_Tests";
@@ -293,12 +299,12 @@
 		};
 		CBF7FB27678775530648F3A2A9B2B1D3 /* NetworkGeneric */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 792EDE53B0C178F394E7B3CAAD7AC8D8 /* Build configuration list for PBXNativeTarget "NetworkGeneric" */;
+			buildConfigurationList = 0B769555208EF80710307DFD97AC1D4D /* Build configuration list for PBXNativeTarget "NetworkGeneric" */;
 			buildPhases = (
-				DF5EE3ACFCF404600C6EA04B31E6621E /* Headers */,
-				B4E05216C97F7FEEB56F4CB0ED36ECAF /* Sources */,
-				F69A95D27D9A0CAD3B38623EAE54A538 /* Frameworks */,
-				FDA29AC7573BE5CBFFDCF795BF4660D2 /* Resources */,
+				8CC89BC596DA0ACED62FC7345C495CC9 /* Headers */,
+				01CAD3625B8B7ED58A8C77823E08F0D0 /* Sources */,
+				01AB5C93FF5E3E274AC8E03B614EC974 /* Frameworks */,
+				CC3E3A70279C83900F0C948C788B2AC1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -346,14 +352,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F987F001596A00A38E2C8611C2B30EB1 /* Resources */ = {
+		CC3E3A70279C83900F0C948C788B2AC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDA29AC7573BE5CBFFDCF795BF4660D2 /* Resources */ = {
+		F987F001596A00A38E2C8611C2B30EB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +369,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		01CAD3625B8B7ED58A8C77823E08F0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEADBFCF8DAD5D4E02E561DD1B5AB86B /* ApiError.swift in Sources */,
+				A8F28B60E460C255039E54C1F4056400 /* Network.swift in Sources */,
+				F689E648158870FB31DD6A638731B944 /* NetworkGeneric-dummy.m in Sources */,
+				B7DDBBBA3C1003CD4DA756187423E385 /* NetworkGeneric.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1455BC781E1C18EB0B5CBB90293C790F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3268F4120A4C49A743AFF0B2015C5D4D /* Pods-NetworkGeneric_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4E05216C97F7FEEB56F4CB0ED36ECAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30609BFAEC2F03CE32B340E15D6C32FA /* NetworkGeneric-dummy.m in Sources */,
-				CC7FAAFD1D62D225BD1F246E1CD122E1 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +399,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		87097025CA1D70BAA5FCE519D6036D44 /* PBXTargetDependency */ = {
+		501064E220597317D15ED4B81D89A730 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NetworkGeneric_Example";
 			target = BACDAAB70F9A9CAC53E8E447A361E41C /* Pods-NetworkGeneric_Example */;
-			targetProxy = 3650205A4343C87922B0FBF1F7BD3A94 /* PBXContainerItemProxy */;
+			targetProxy = 679A875EE3D365CF3045A801E092A6B4 /* PBXContainerItemProxy */;
 		};
-		F648AA3D3EF945848EF05FF61F96DB98 /* PBXTargetDependency */ = {
+		E13F78D28DA58BC81A725BB392C021D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NetworkGeneric;
 			target = CBF7FB27678775530648F3A2A9B2B1D3 /* NetworkGeneric */;
-			targetProxy = 5904A821B2E3F94A4A59A8210E81DC87 /* PBXContainerItemProxy */;
+			targetProxy = 631D63DB502BE4827BABA32E3BE0BDF4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -437,6 +445,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		16DA09DE8922A3E86C71291936A4B86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 333F81DBB5AAFD59878BF076D2AE50A2 /* NetworkGeneric.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NetworkGeneric/NetworkGeneric-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NetworkGeneric/NetworkGeneric-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NetworkGeneric/NetworkGeneric.modulemap";
+				PRODUCT_MODULE_NAME = NetworkGeneric;
+				PRODUCT_NAME = NetworkGeneric;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -501,6 +540,36 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34EA2DDF6E9A7C48D1B3381E4662686A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97ADE9478BD1423364B28553130098A /* NetworkGeneric.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NetworkGeneric/NetworkGeneric-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NetworkGeneric/NetworkGeneric-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NetworkGeneric/NetworkGeneric.modulemap";
+				PRODUCT_MODULE_NAME = NetworkGeneric;
+				PRODUCT_NAME = NetworkGeneric;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -570,36 +639,6 @@
 			};
 			name = Release;
 		};
-		A01AEAF51290D4254686216051404F6C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC3C78547EB7AB283EEECFE7B4B78207 /* NetworkGeneric.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NetworkGeneric/NetworkGeneric-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NetworkGeneric/NetworkGeneric-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NetworkGeneric/NetworkGeneric.modulemap";
-				PRODUCT_MODULE_NAME = NetworkGeneric;
-				PRODUCT_NAME = NetworkGeneric;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		A9BB6A5602508485A01BCB400CDBA152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E185FBE105DB915D467FEE50894D730 /* Pods-NetworkGeneric_Tests.debug.xcconfig */;
@@ -631,37 +670,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		BF58FFD6D518ED3177C6E2BAD133E771 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C069A1BB4251B2646587B96303DBAFA /* NetworkGeneric.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NetworkGeneric/NetworkGeneric-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NetworkGeneric/NetworkGeneric-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NetworkGeneric/NetworkGeneric.modulemap";
-				PRODUCT_MODULE_NAME = NetworkGeneric;
-				PRODUCT_NAME = NetworkGeneric;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -728,6 +736,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0B769555208EF80710307DFD97AC1D4D /* Build configuration list for PBXNativeTarget "NetworkGeneric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34EA2DDF6E9A7C48D1B3381E4662686A /* Debug */,
+				16DA09DE8922A3E86C71291936A4B86F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -751,15 +768,6 @@
 			buildConfigurations = (
 				136F9AA7F48850E2B9A79E71DA2271C2 /* Debug */,
 				822FA4ED0162CD50EC47F4F5071841B0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		792EDE53B0C178F394E7B3CAAD7AC8D8 /* Build configuration list for PBXNativeTarget "NetworkGeneric" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A01AEAF51290D4254686216051404F6C /* Debug */,
-				BF58FFD6D518ED3177C6E2BAD133E771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

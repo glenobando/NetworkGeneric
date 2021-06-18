@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+struct PokemonResponse : Codable {
+    var count: Int
+    var next: String
+    var previous: String?
+    var results: [Pokemon]
+}
