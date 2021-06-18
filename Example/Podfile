@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'NetworkGeneric_Example' do
+  pod 'NetworkGeneric', :path => '../'
+
+  target 'NetworkGeneric_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
